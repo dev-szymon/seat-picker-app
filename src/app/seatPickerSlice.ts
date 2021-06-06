@@ -108,7 +108,7 @@ export interface ISeatPickerState {
 }
 
 const loadData = async () => {
-  const res = await fetch('http://localhost:3000/seats');
+  const res = await fetch('http://localhost:3001/seats');
   const json = await res.json();
   return json as ISeat[];
 };

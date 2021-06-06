@@ -24,6 +24,7 @@
     "typescript": "~4.1.5"
   },
   "scripts": {
+    "api": "npx json-server --watch db.json --port 3001",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
   }
 }
