@@ -1,5 +1,5 @@
 import { useAppDispatch, useAppSelector } from '../app/hooks';
-import { selectSelected, toggle } from '../app/seatPickerSlice';
+import { selectSelected, toggleSeat } from '../app/seatPickerSlice';
 
 interface ISeatProps {
   seat: ISeat;
@@ -16,7 +16,7 @@ export default function Seat({ seat }: ISeatProps) {
         reserved ? 'reserved' : isSelected ? 'selected' : 'default'
       }`}
       disabled={reserved}
-      onClick={() => dispatch(toggle(seat))}
+      onClick={() => dispatch(toggleSeat(seat))}
     ></button>
   );
 }
