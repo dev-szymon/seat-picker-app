@@ -4,18 +4,18 @@ The app uses typescript, react, redux and chakra ui.
 
 ## What’s In This Document
 
-- [Technologies used](#-technologies-used)
-- [Walk through](#-walk-through)
-- [Run locally](#-run-locally)
+- [Technologies used](#technologies-used)
+- [Walk through](#walk-through)
+- [Run locally](#run-locally)
 
-## Technologies used
+## <a name="technologies-used">Technologies used</a>
 
 - [React](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [ChakraUI](https://chakra-ui.com/)
 - [Redux Tool Kit](https://redux-toolkit.js.org/)
 
-## Walk through
+## <a name="walk-through">Walk through</a>
 
 1. **Insert number of seats to reserve.**
 
@@ -33,9 +33,9 @@ The app uses typescript, react, redux and chakra ui.
 
    ![summary view](https://res.cloudinary.com/dq104qc4m/image/upload/v1623259525/seat-picker/summary_lfr1on.jpg)
 
-## Run locally
+## <a name="run-locally">Run locally</a>
 
-    Run this project locally to explore it's functionality. You can take a look how the UI looks in How it looks section.
+    Run this project locally to explore it's functionality. You can take a look how the UI looks in <a name="walk-through">Walk through</a> section.
 
 1. **Clone the repository**
 
