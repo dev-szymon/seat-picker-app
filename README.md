@@ -35,7 +35,7 @@ The app uses typescript, react, redux and chakra ui.
 
 ## <a name="run-locally">Run locally</a>
 
-    Run this project locally to explore it's functionality. You can take a look how the UI looks in <a name="walk-through">Walk through</a> section.
+Run this project locally to explore it's functionality. You can take a look how the UI looks in <a name="walk-through">Walk through</a> section.
 
 1. **Clone the repository**
 
